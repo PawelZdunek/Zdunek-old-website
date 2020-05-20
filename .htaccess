@@ -1,0 +1,19 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule odwiedz-nasza-strone index.html
+RewriteRule produkty-ktore-oferujemy sklep.html
+RewriteRule Zdunek-Karol-kontakt kontakt.html
+RewriteRule zobacz-co-oferujemy uslugi.html
+	RewriteRule uslugi-centrala-wirtualna centrala-wirtualna.html
+	RewriteRule budowa-stron-internetowych strony-internetowe.html
+	RewriteRule uslugi-IVR ivr.html
+	RewriteRule uslugi-konferencja konferencja.html
+	RewriteRule uslugi-rejestrator rejestrator.html
+	RewriteRule uslugi-powitania powitania.html
+RewriteRule firmy-ktore-nam-zaufaly zaufalinam.html
+RewriteRule zdjecia galeria.html
