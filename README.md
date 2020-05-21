@@ -1,2 +1,2 @@
 # Zdunek-old-website
-This is the old version of our company's website. Published in December 2019
+This is the old version of Zdunek company website. Published in December 2019
